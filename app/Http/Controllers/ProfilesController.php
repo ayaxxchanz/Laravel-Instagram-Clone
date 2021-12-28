@@ -11,7 +11,7 @@ class ProfilesController extends Controller
     {
         $user = User::find($id);
         return view('home', [
-            'username' => $user
+            'user' => $user
         ]);
     }
 }
