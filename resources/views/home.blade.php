@@ -8,16 +8,16 @@
         </div>
         <div class="col-8">
             <div>
-                <h2 class="font-weight-light">{{$user->username}}</h2>
+                <h2 class="font-weight-light">{{ $user->username }}</h2>
             </div>
             <div class="d-flex pt-4">
                 <div class="pr-5"><strong>4</strong> posts</div>
                 <div class="pr-5"><strong>165</strong> followers</div>
                 <div class="pr-5"><strong>176</strong> following</div>
             </div>
-            <div class="pt-3"><strong>{{$user->profile->title}}</strong></div>
-            <div>{{$user->profile->description}}</div>
-            <div><a href="#">{{$user->profile->url}}</a></div>
+            <div class="pt-3"><strong>{{ $user->profile->title }}</strong></div>
+            <div>{{ $user->profile->description }}</div>
+            <div><a href="#">{{ $user->profile->url }}</a></div>
         </div>
     </div>
     <div class="row pt-5">
