@@ -7,8 +7,9 @@
             <img src="/img/pp.png" class="rounded-circle" style="width: 300px;border: 1px solid #e4e3e1">
         </div>
         <div class="col-8">
-            <div>
+            <div class="d-flex justify-content-between align-items-baseline">
                 <h2 class="font-weight-light">{{ $user->username }}</h2>
+                <a href="#">Add New Post</a>
             </div>
             <div class="d-flex pt-4">
                 <div class="pr-5"><strong>4</strong> posts</div>
