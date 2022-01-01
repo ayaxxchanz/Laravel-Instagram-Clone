@@ -25,9 +25,9 @@
                     @enderror
                 </div>
 
-                <!-- Image Caption -->
+                <!-- Image -->
                 <div class="row">
-                    <label for="image" class="col-md-4 col-form-label">Image Caption</label>
+                    <label for="image" class="col-md-4 col-form-label">Upload an Image</label>
 
                     <input type="file" class="form-control-file" id="image" name="image">
 
