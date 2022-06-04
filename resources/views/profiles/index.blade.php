@@ -3,8 +3,8 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-4 d-flex align-items-center justify-content-center">
-            <img src="/storage/{{ $user->profile->image }}" class="rounded-circle w-100" style="border: 1px solid #e4e3e1">
+        <div class="col-4 d-flex align-items-start justify-content-center">
+            <img src="{{ $user->profile->profileImage() }}" class="rounded-circle w-50" style="border: 1px solid #e4e3e1">
         </div>
         <div class="col-8">
             <div class="d-flex justify-content-between align-items-baseline">
