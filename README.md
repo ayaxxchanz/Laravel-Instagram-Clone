@@ -8,7 +8,7 @@ Instagram clone, made with Laravel with some extra features that are not availab
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
 
-## Running the Project Locally
+## Run locally
 
 Assuming you already have all the components needed and environment set up for running Laravel:
 
