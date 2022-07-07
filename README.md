@@ -7,6 +7,11 @@ Instagram clone, made with Laravel with some extra features that are not availab
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
+## Preview
+
+<a href="https://i.imgur.com/PCfpGa8.png" target="_blank"><img src="https://i.imgur.com/PCfpGa8.png" width="600px"></img></a>
+
+<a href="https://i.imgur.com/neNYRKq.png" target="_blank"><img src="https://i.imgur.com/neNYRKq.png" width="600px"></img></a>
 
 ## Run locally
 
@@ -19,6 +24,7 @@ Assuming you already have all the components needed and environment set up for r
 - Create a new file named `database.sqlite` in `database` folder
 - Run `php artisan key:generate`
 - Run `php artisan migrate`
+- Run `php artisan storage:link`
 - Run `php artisan serve`
 
 
