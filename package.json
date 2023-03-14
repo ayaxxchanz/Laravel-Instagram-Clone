@@ -29,7 +29,7 @@
         "ansi-html-community": "0.0.8",
         "babel-preset-es2015": "^6.24.1",
         "save": "^2.4.0",
-        "webpack": "^5.65.0"
+        "webpack": "^5.76.0"
     },
     "resolutions": {
         "ansi-html": "https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz"
